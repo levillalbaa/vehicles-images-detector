@@ -1,32 +1,20 @@
-# Prerequisites
-*.d
+datasets/distributed/**/**
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Created by https://www.gitignore.io/api/jupyternotebooks
+# Edit at https://www.gitignore.io/?templates=jupyternotebooks
 
-# Precompiled Headers
-*.gch
-*.pch
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Fortran module files
-*.mod
-*.smod
+# IPython
+profile_default/
+ipython_config.py
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
-# Executables
-*.exe
-*.out
-*.app
+# End of https://www.gitignore.io/api/jupyternotebooks
